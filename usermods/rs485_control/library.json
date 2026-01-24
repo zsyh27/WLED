@@ -1,0 +1,21 @@
+{
+  "name": "RS485_Control",
+  "version": "1.0.0",
+  "description": "RS485 serial communication control for WLED with text command interface",
+  "keywords": ["rs485", "serial", "control", "communication", "usermod"],
+  "authors": [
+    {
+      "name": "WLED Community"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wled-dev/WLED"
+  },
+  "build": { 
+    "libArchive": false 
+  },
+  "dependencies": {},
+  "frameworks": ["arduino"],
+  "platforms": ["espressif32"]
+}
