@@ -357,6 +357,7 @@ private:
                 String addrStr = cmd.substring(1, spacePos);
                 uint8_t targetAddress = addrStr.toInt();
                 
+                
                 if (config.debugMode) {
                     DEBUG_PRINTF("Target address: %d, My address: %d\n", targetAddress, config.deviceAddress);
                 }
